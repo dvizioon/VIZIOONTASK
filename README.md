@@ -159,7 +159,7 @@ flowchart TD
     Service <--> Repository[Repositório\nTaskRepository]
     Repository <--> Model[Modelo\nTask]
     
-    subgraph Fluxo de Operações
+    subgraph Fluxo
         A[Usuário cria tarefa] --> B[UI captura dados]
         B --> C[Service valida dados]
         C --> D[Repository armazena]
