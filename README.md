@@ -10,7 +10,7 @@ VizioonTask é um aplicativo de gerenciamento de tarefas desenvolvido em Java ut
 
 ## Características
 
-> [!SUCCESS]
+> [!TIP]
 > - Criação, edição e exclusão de tarefas
 > - Definição de prioridades (Alta, Média, Baixa)
 > - Controle de datas e prazos
