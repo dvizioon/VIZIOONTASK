@@ -154,10 +154,10 @@ service.markTaskAsIncomplete(String taskId);
 
 ```mermaid
 flowchart TD
-    User([Usuário]) <--> UI[Interface Gráfica\nTaskManagerUI]
-    UI <--> Service[Camada de Serviço\nTaskService]
-    Service <--> Repository[Repositório\nTaskRepository]
-    Repository <--> Model[Modelo\nTask]
+    User([Usuário]) <--> UI[Interface Gráfica -> TaskManagerUI]
+    UI <--> Service[Camada de Serviço -> TaskService]
+    Service <--> Repository[Repositório -> TaskRepository]
+    Repository <--> Model[Modelo -> Task]
     
     subgraph Fluxo
         A[Usuário cria tarefa] --> B[UI captura dados]
